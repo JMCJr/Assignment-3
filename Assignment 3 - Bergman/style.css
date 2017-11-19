@@ -1,0 +1,58 @@
+/*Bergman Style*/
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Monsieur+La+Doulaise');
+
+body {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.blackheader {
+	background-image: url(images/Persona-Logo.png);
+	width: 100%;
+	height: 100px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+
+.whiteheader {
+	background-image: url(images/Persona-Logo-w.png);
+	width: 100%;
+	height: 100px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+
+aside {
+	font-family: 'Josefin Slab', serif;
+	background-color: rgba(0,0,0,.3);
+	color: white;
+	width: 25%;
+	height: 610px;
+}
+section {
+
+	width: 75%;
+}
+
+.describe {
+	margin: 20px;
+}
+
+nav {
+	font-family: 'Monsieur La Doulaise', cursive;
+	color: white;
+	font-size: 36px;
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.navbutt {
+	
+}
